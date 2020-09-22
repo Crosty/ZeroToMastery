@@ -1,0 +1,56 @@
+header, footer {
+    padding: 1em;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    background-image: url(banner.jpg);
+    border: 1px solid black;
+	clear: left;
+	text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 3;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+}
+
+.cover {
+    width: 100%;
+	border: 1px solid gray;
+}
+
+.form1 {
+    margin-left: 180px;
+	border-left: 1px solid gray;
+	padding: 2.5ex;
+    overflow: hidden;
+    font-family: 'Josefin Slab', serif;
+}
+
+.fig {
+    margin-bottom: 4px;
+}
+
+.carsFig {
+    margin-bottom: 4px;
+}
+
+#Back {
+    border: 1px solid black;
+    background-color: rgba(200, 200, 200, 0.3);
+    margin-bottom: 1ex;
+    padding: 3px;
+}
+

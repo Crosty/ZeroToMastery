@@ -1,0 +1,33 @@
+/*Protoype of coding*/
+/* Selector {
+    property: value;
+} */
+body {
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: rgb(255, 167, 3);
+    text-align: center;
+    border: 2px solid rgb(255, 167, 3);
+    cursor: pointer;
+}
+
+p {
+    color: white;
+}
+
+#home {
+    color: white;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+#div1 {
+    background: rgba(255, 255, 255, 0.1)
+}

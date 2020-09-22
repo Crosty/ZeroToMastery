@@ -1,0 +1,62 @@
+header, footer {
+    padding: 1em;
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    background-image: url(banner.jpg);
+    border: 1px solid black;
+	clear: left;
+	text-align: center;
+}
+
+#TimB {
+    background-color: rgba(116, 116, 116, 0.5);
+    margin-right: 1028px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+#Feynman {
+    background-color: rgba(116, 116, 116, 0.5);
+    margin-right: 535px;
+    border: 1px solid gray;
+    padding: 4px;
+}
+
+.frontPageContent 
+{
+	width: 100%;
+	border: 1px solid gray;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 3;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+}
+
+#MI, #About, #Back {
+    border: 1px solid black;
+    background-color: rgba(200, 200, 200, 0.3);
+    margin-bottom: 1ex;
+    padding: 3px;
+}
+
+article {
+    margin-left: 180px;
+	border-left: 1px solid gray;
+	padding: 2.5em;
+    overflow: hidden;
+    font-family: 'Josefin Slab', serif;
+}

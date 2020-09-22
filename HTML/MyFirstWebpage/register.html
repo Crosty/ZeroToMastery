@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="registerLayout.css">
+</head>
+<body>
+	<div class="cover">
+		<header>
+			<h1>Registration</h1>
+		</header>
+		<nav>
+			<ul>
+				<li id="Back"><a href="index.html">Go Back</a></li>
+			</ul>
+		</nav>
+	<!-- Use GET, not POST -->
+		<form method="GET">
+			<div class="form1">
+				First Name: <input class="fig" type="text" name="firstname" required><br>
+				Last Name: <input class="fig" type="text" name="lastname" required><br>
+				Email: <input class="fig" type="email" name="email" required><br>
+				Password: <input class="fig" type="password" name="password" min="16" required><br>
+				Birthday: <input class="fig" type="date" name="birthday" required><br>
+				Gender:<br>
+				<input type="radio" name="gender" value="Male">Male<br>
+				<input type="radio" name="gender" value="Female">Female<br>
+				<input type="radio" name="gender" value="Other">Other<br>
+				Pets:<br> 
+				<input type="checkbox" name="cat">Cat<br>
+				<input type="checkbox" name="dog">Dog<br>
+				Cars: <br>
+				<select class="carsFig" name="cars">
+					<option value="volvo">Volvo</option>
+					<option value="audi">Audi</option>
+				</select><br>
+				<input type="submit" value="Register!">
+				<input type="reset">
+			</div>
+		</form>
+		<footer>Made by Stanie using commands from W3Schools.com<br> Copyright &copy; W3Schools.com</footer>
+	</div>
+</body>
+</html>
